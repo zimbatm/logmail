@@ -20,3 +20,8 @@ build
 apt-get install dpkg-dev fakeroot rake
 rake
 ~~~~~~
+
+UnLICENCE
+-------
+
+All code published in this repo is released by yours truly under the public domain ( see http://unlicense.org )
