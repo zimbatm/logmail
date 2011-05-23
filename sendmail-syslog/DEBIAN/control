@@ -1,0 +1,10 @@
+Package: sendmail-syslog
+Version: 1.0.0
+Section: mail
+Priority: optional
+Architecture: all
+Depends: bsdutils
+Maintainer: Jonas Pfenniger <jonas@pfenniger.name>
+Provides: mail-transport-agent
+Replaces: mail-transport-agent
+Description: Fake sendmail that sends all mails to syslog

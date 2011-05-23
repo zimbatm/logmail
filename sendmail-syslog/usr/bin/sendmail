@@ -1,0 +1,17 @@
+#!/bin/sh
+# Fake sendmail that sends the original invoke to syslog
+#
+
+set -e
+
+msg=
+# if no TTY
+if ! test -t 0 ; then
+  msg=`cat`
+fi
+
+if [ -n "$msg" ]; then
+  logger -t sendmail -p mail.info -- $@ '<' "$msg"
+else
+  logger -t sendmail -p mail.info -- $@
+fi
