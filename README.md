@@ -1,4 +1,5 @@
-h1. sendmail-syslog
+sendmail-syslog
+===============
 
 Did you ever log into a server to discover that your local mailbox is full
 of messages ? Maybe you wanted to know about cron failing in the backup task.
@@ -12,7 +13,8 @@ it's name says. Coupled with a nice syslog aggregation tool (that you should
 setup anyways), you can easily filter your messages and keep an eye on those
 old programs that require a mailer.
 
-h2. build
+build
+-----
 
 ~~~~~~
 apt-get install dpkg-dev fakeroot rake
