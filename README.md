@@ -1,5 +1,5 @@
-sendmail-syslog
-===============
+logmail
+=======
 
 Did you ever log into a server to discover that your local mailbox is full
 of messages ? Maybe you wanted to know about cron failing in the backup task.
