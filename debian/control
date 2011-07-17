@@ -1,0 +1,15 @@
+Source: logmail
+Section: mail
+Priority: extra
+Maintainer: Jonas Pfenniger <jonas@pfenniger.name>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://github.com/zimbatm/logmail
+
+Package: logmail
+Architecture: all
+Depends: ${misc:Depends} bsdutils
+Provides: mail-transport-agent
+Replaces: mail-transport-agent
+Description: Fake mailer that sends all mails to syslog
+

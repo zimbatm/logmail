@@ -12,16 +12,3 @@ In both cases, the answer is sendmail-syslog. Once installed, it does what
 it's name says. Coupled with a nice syslog aggregation tool (that you should
 setup anyways), you can easily filter your messages and keep an eye on those
 old programs that require a mailer.
-
-build
------
-
-~~~~~~
-apt-get install dpkg-dev fakeroot rake
-rake
-~~~~~~
-
-UnLICENCE
--------
-
-All code published in this repo is released by yours truly under the public domain ( see http://unlicense.org )
