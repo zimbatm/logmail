@@ -8,7 +8,7 @@ Homepage: https://github.com/zimbatm/logmail
 
 Package: logmail
 Architecture: all
-Depends: ${misc:Depends} bsdutils
+Depends: ${misc:Depends}, bsdutils
 Provides: mail-transport-agent
 Replaces: mail-transport-agent
 Description: Fake mailer that sends all mails to syslog
