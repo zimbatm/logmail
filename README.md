@@ -18,8 +18,8 @@ Install
 -------
 
 ```
-wget http://zimbatm.s3.amazonaws.com/logmail/logmail_1.0.0_all.deb
-dpkg -i logmail_1.0.0_all.deb
+wget http://zimbatm.s3.amazonaws.com/logmail/logmail_1.1.0_all.deb
+dpkg -i logmail_1.1.0_all.deb
 ```
 
 Now all further emails are forwarded to syslog.

@@ -1,4 +1,10 @@
-logmail (1.0.0) lucid; urgency=low
+logmail (1.1.0) precise; urgency=low
+
+  * Adds a dummy newaliases bin
+
+ -- zimbatm <zimbatm@zimbatm.com>  Mon, 18 Nov 2013 13:54:00 +0000
+
+logmail (1.0.0) precise; urgency=low
 
   * Initial Release.
 
