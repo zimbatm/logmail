@@ -23,3 +23,11 @@ dpkg -i logmail_1.0.0_all.deb
 ```
 
 Now all further emails are forwarded to syslog.
+
+Debian build
+------------
+
+```
+sudo apt-get install devscripts debhelper
+dpkg-buildpackage
+```
