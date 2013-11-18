@@ -1,6 +1,6 @@
 This work was packaged for Debian by:
 
-    Jonas Pfenniger <jonas@pfenniger.name> on Sun, 17 Jul 2011 13:40:55 +0100
+    zimbatm <zimbatm@zimbatm.com> on Sun, 17 Jul 2011 13:40:55 +0100
 
 It was downloaded from <url://example.com>
 
@@ -36,7 +36,7 @@ found in `/usr/share/common-licenses/BSD'.
 
 The Debian packaging is:
 
-    Copyright (C) 2011 Jonas Pfenniger <jonas@pfenniger.name>
+    Copyright (C) 2011-2013 zimbatm <zimbatm@zimbatm.com>
 
 # Please chose a license for your packaging work. If the program you package
 # uses a mainstream license, using the same license is the safest choice.

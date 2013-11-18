@@ -1,7 +1,7 @@
 Source: logmail
 Section: mail
 Priority: extra
-Maintainer: Jonas Pfenniger <jonas@pfenniger.name>
+Maintainer: zimbatm <zimbatm@zimbatm.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
 Homepage: https://github.com/zimbatm/logmail
