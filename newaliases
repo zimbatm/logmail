@@ -1,0 +1,5 @@
+#!/bin/sh
+# A noop script to allow compatiblity with sendmail
+#
+# This script is supposed to update email aliases targets but we just send
+# everything to syslog.
